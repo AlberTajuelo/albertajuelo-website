@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Input;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +14,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('home');
+});
+
+Route::get('/download/resume', function()
+{
+  return Response::download('assets/resume.pdf');
 });
