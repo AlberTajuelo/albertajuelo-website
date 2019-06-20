@@ -14,6 +14,10 @@
     <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/css/freelancer.min.css" rel="stylesheet" type="text/css">
 
+    <style>
+      .portfolio .portfolio-item {max-width: 17rem;}
+    </style>
+
   </head>
 
 <body id="page-top">
@@ -44,7 +48,7 @@
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
 
-      <img class="masthead-avatar mb-5 rounded-circle" src="img/avatar.svg" alt="AlberTajuelo Cartoon Avatar">
+      <img class="masthead-avatar mb-5 rounded-circle" src="img/albertajuelo.png" alt="AlberTajuelo Cartoon Avatar">
 
       <h1 class="masthead-heading mb-0">AlberTajuelo</h1>
 
@@ -248,8 +252,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           
-          <p class="lead">You can contact me via email: hello@albertajuelo.com</p>
-          <p class="lead">Please be as detailed as possible and be sure to include your correct contact details. You will usually receive an answer within 3 working days.</p>
+          <p class="lead">You can contact me via email <a href="mailto:info@albertajuelo.com">info@albertajuelo.com</a></p>
           
         </div>
       </div>

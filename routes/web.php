@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/download/resume', function()
 {
-  return Response::download('assets/resume.pdf');
+  return Response::download('assets/Site Reliability Engineer - Alberto Gonzalez Tajuelo.pdf');
 });
