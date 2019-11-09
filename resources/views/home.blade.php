@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
         <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT ME</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#work">WORK EXPERIENCE</a>
@@ -48,7 +48,7 @@
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
 
-      <img class="masthead-avatar mb-5 rounded-circle" src="img/albertajuelo.png" alt="AlberTajuelo Cartoon Avatar">
+      <img class="masthead-avatar mb-5 rounded-circle" src="img/albertajuelo.jpeg" alt="AlberTajuelo photo">
 
       <h1 class="masthead-heading mb-0">AlberTajuelo</h1>
 
@@ -60,7 +60,7 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <p class="masthead-subheading font-weight-light mb-0">Site Reliability Engineer - Crypto Enthusiast - PC Gamer</p>
+      <p class="masthead-subheading font-weight-light mb-0">Build & Release Engineer - Crypto Enthusiast - PC Gamer</p>
 
       <div class="text-center mt-4">
         <a class="btn btn-xl btn-outline-light" href="{{ URL::to('/download/resume') }}">
@@ -90,7 +90,7 @@
   <section class="page-section mb-0" id="about">
     <div class="container">
 
-      <h2 class="page-section-heading text-center mb-0">ABOUT</h2>
+      <h2 class="page-section-heading text-center mb-0">ABOUT ME</h2>
 
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
@@ -104,7 +104,7 @@
         <div class="col-lg-4 ml-auto">
           <p class="lead">Hi! I'm Alberto Gonz&aacute;lez and I love to empower business and professionals to create software with high quality and to reduce software development lifecycle costs.</p>
 
-          <p class="lead">With four+ years of software development experience, I have become a great added value to a software development team.</p>
+          <p class="lead">With six+ years of software development experience, I have become a great added value to a software development team.</p>
 
         </div>
         <div class="col-lg-4 mr-auto">
@@ -313,6 +313,8 @@
                 </div>
                 <img class="img-fluid rounded mb-5" src="{{ URL::to('img/work/channeladivsor.png') }}" alt="ChannelAdvisor">
                 <p class="mb-5">ChannelAdvisor Corp. is an e-commerce company based in Morrisville, North Carolina. The company provides cloud-based e-commerce software solutions to over 2800 customers worldwide, including Dell, Karen Kane, KitchenAid, Under Armour, Timex and Samsung.</p>
+                <p class="mb-5">Build pipeline implementation using Azure DevOps for projects with C#, F# and JavaScript (React) in Windows environments (AWS and on-premise environments).</p>
+                <p class="mb-5">Tech knowledge sharing about containers (Docker) and Git.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
