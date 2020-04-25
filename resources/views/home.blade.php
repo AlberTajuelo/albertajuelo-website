@@ -11,8 +11,10 @@
 
     <title>{{ trans('app.title') }}</title>
 
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
     <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://blackrockdigital.github.io/startbootstrap-freelancer/css/freelancer.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('css/styles.css') }}" rel="stylesheet" type="text/css">
 
     <style>
       .portfolio .portfolio-item {max-width: 17rem;}
@@ -48,7 +50,7 @@
   <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
 
-      <img class="masthead-avatar mb-5 rounded-circle" src="img/albertajuelo.jpeg" alt="AlberTajuelo photo">
+      <img class="masthead-avatar mb-5 rounded-circle" src="{{ URL::asset('img/albertajuelo.jpeg') }}" alt="AlberTajuelo photo">
 
       <h1 class="masthead-heading mb-0">AlberTajuelo</h1>
 
@@ -139,7 +141,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/channeladivsor.png') }}" alt="ChannelAdvisor">
+            <img class="img-fluid" src="{{ URL::asset('img/work/channeladivsor.png') }}" alt="ChannelAdvisor">
           </div>
         </div>
 
@@ -150,7 +152,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/airbus.png') }}" alt="Airbus">
+            <img class="img-fluid" src="{{ URL::asset('img/work/airbus.png') }}" alt="Airbus">
           </div>
         </div>
 
@@ -161,7 +163,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/predictx.png') }}" alt="PredictX">
+            <img class="img-fluid" src="{{ URL::asset('img/work/predictx.png') }}" alt="PredictX">
           </div>
         </div>
 
@@ -172,7 +174,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/stratiobd.png') }}" alt="StratioBD">
+            <img class="img-fluid" src="{{ URL::asset('img/work/stratiobd.png') }}" alt="StratioBD">
           </div>
         </div>
 
@@ -183,7 +185,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/fonetic.png') }}" alt="Fonetic">
+            <img class="img-fluid" src="{{ URL::asset('img/work/fonetic.png') }}" alt="Fonetic">
           </div>
         </div>
 
@@ -194,7 +196,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/bring.png') }}" alt="Bring Global">
+            <img class="img-fluid" src="{{ URL::asset('img/work/bring.png') }}" alt="Bring Global">
           </div>
         </div>
 
@@ -205,7 +207,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/indizen.png') }}" alt="Indizen">
+            <img class="img-fluid" src="{{ URL::asset('img/work/indizen.png') }}" alt="Indizen">
           </div>
         </div>
 
@@ -216,7 +218,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/uc3m.png') }}" alt="UC3M">
+            <img class="img-fluid" src="{{ URL::asset('img/work/uc3m.png') }}" alt="UC3M">
           </div>
         </div>
 
@@ -227,7 +229,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ URL::to('img/work/ganetecglobalsolutions.png') }}" alt="Ganetec Global Solutions">
+            <img class="img-fluid" src="{{ URL::asset('img/work/ganetecglobalsolutions.png') }}" alt="Ganetec Global Solutions">
           </div>
         </div>
 
@@ -618,7 +620,7 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <script src="https://blackrockdigital.github.io/startbootstrap-freelancer/js/freelancer.min.js"></script>
+  <script src="{{ URL::asset('js/scripts.js') }}"></script>
 
 </body>
 
