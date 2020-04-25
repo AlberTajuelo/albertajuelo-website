@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Input;
 |
 */
 
+if (App::environment('remote')) {
+    URL::forceScheme('https');
+}
+
 Route::get('/', function () {
   return view('home');
 });
